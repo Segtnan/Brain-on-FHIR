@@ -35,7 +35,7 @@ public class FederatedDbHandler {
         try {
             Class.forName("org.apache.derby.jdbc.ClientDriver").newInstance();
             this.connect = DriverManager
-                    .getConnection("jdbc:derby://18.197.210.190:6414/gaiandb","gaiandb","passw0rd");
+                    .getConnection("jdbc:derby://18.197.78.189:6414/gaiandb","gaiandb","passw0rd");
             ResultSet rs = connect.createStatement().executeQuery(
                     "select * from new com.ibm.db2j.GaianQuery('select * from source', 'with_provenance') GQ");
             while(rs.next()){
