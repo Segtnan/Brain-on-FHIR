@@ -1,0 +1,7 @@
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/SegtnanQuestionnaireResponseResourceProvider.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/DbConnection.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/FederatedDbHandler.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/PatientResourceProvider.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/SegtnanContext.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/SegtnanRestfulServer.java
+/home/boegebjerg/temp/federation/src/main/java/ca/uhn/fhir/example/SegtnanQuestionnaireResponse.java

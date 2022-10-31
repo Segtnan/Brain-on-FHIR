@@ -1,0 +1,7 @@
+ca/uhn/fhir/example/SegtnanQuestionnaireResponseResourceProvider.class
+ca/uhn/fhir/example/SegtnanRestfulServer.class
+ca/uhn/fhir/example/PatientResourceProvider.class
+ca/uhn/fhir/example/DbConnection.class
+ca/uhn/fhir/example/SegtnanContext.class
+ca/uhn/fhir/example/FederatedDbHandler.class
+ca/uhn/fhir/example/SegtnanQuestionnaireResponse.class
