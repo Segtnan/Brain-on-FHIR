@@ -87,7 +87,7 @@ loadScripts(document, 'script');</script>
 <h1 title="Class SegtnanQuestionnaireResponseResourceProvider" class="title">Class SegtnanQuestionnaireResponseResourceProvider</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
-<div class="inheritance">ca.uhn.fhir.example.SegtnanQuestionnaireResponseResourceProvider</div>
+<div class="inheritance">io.segtnan.hapi.SegtnanQuestionnaireResponseResourceProvider</div>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
@@ -110,7 +110,7 @@ implements ca.uhn.fhir.rest.server.IResourceProvider</span></div>
 <div class="table-header col-first">Constructor</div>
 <div class="table-header col-last">Description</div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(ca.uhn.fhir.context.FhirContext,ca.uhn.fhir.example.FederatedDbHandler)" class="member-name-link">SegtnanQuestionnaireResponseResourceProvider</a><wbr>(ca.uhn.fhir.context.FhirContext&nbsp;ctx,
- ca.uhn.fhir.example.FederatedDbHandler&nbsp;dbHandler)</code></div>
+ io.segtnan.hapi.FederatedDbHandler&nbsp;dbHandler)</code></div>
 <div class="col-last even-row-color">&nbsp;</div>
 </div>
 </section>
@@ -129,7 +129,7 @@ implements ca.uhn.fhir.rest.server.IResourceProvider</span></div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends org.hl7.fhir.instance.model.api.IBaseResource&gt;</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getResourceType()" class="member-name-link">getResourceType</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>ca.uhn.fhir.example.SegtnanQuestionnaireResponse</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>io.segtnan.hapi.SegtnanQuestionnaireResponse</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#read(ca.uhn.fhir.rest.api.server.RequestDetails,org.hl7.fhir.r4.model.IdType)" class="member-name-link">read</a><wbr>(ca.uhn.fhir.rest.api.server.RequestDetails&nbsp;theRequestDetails,
  org.hl7.fhir.r4.model.IdType&nbsp;theId)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
@@ -138,7 +138,7 @@ implements ca.uhn.fhir.rest.server.IResourceProvider</span></div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>ca.uhn.fhir.rest.api.MethodOutcome</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#update(ca.uhn.fhir.rest.api.server.RequestDetails,org.hl7.fhir.r4.model.IdType,ca.uhn.fhir.example.SegtnanQuestionnaireResponse,java.lang.String,ca.uhn.fhir.rest.api.EncodingEnum)" class="member-name-link">update</a><wbr>(ca.uhn.fhir.rest.api.server.RequestDetails&nbsp;theRequestDetails,
  org.hl7.fhir.r4.model.IdType&nbsp;theId,
- ca.uhn.fhir.example.SegtnanQuestionnaireResponse&nbsp;sqr,
+ io.segtnan.hapi.SegtnanQuestionnaireResponse&nbsp;sqr,
  <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;theRawBody,
  ca.uhn.fhir.rest.api.EncodingEnum&nbsp;theEncodingEnum)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
@@ -194,7 +194,7 @@ implements ca.uhn.fhir.rest.server.IResourceProvider</span></div>
 <h3>update</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">ca.uhn.fhir.rest.api.MethodOutcome</span>&nbsp;<span class="element-name">update</span><wbr><span class="parameters">(ca.uhn.fhir.rest.api.server.RequestDetails&nbsp;theRequestDetails,
  org.hl7.fhir.r4.model.IdType&nbsp;theId,
- ca.uhn.fhir.example.SegtnanQuestionnaireResponse&nbsp;sqr,
+ io.segtnan.hapi.SegtnanQuestionnaireResponse&nbsp;sqr,
  <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;theRawBody,
  ca.uhn.fhir.rest.api.EncodingEnum&nbsp;theEncodingEnum)</span></div>
 <dl class="notes">
@@ -211,7 +211,7 @@ implements ca.uhn.fhir.rest.server.IResourceProvider</span></div>
 <li>
 <section class="detail" id="read(ca.uhn.fhir.rest.api.server.RequestDetails,org.hl7.fhir.r4.model.IdType)">
 <h3>read</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">ca.uhn.fhir.example.SegtnanQuestionnaireResponse</span>&nbsp;<span class="element-name">read</span><wbr><span class="parameters">(ca.uhn.fhir.rest.api.server.RequestDetails&nbsp;theRequestDetails,
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">io.segtnan.hapi.SegtnanQuestionnaireResponse</span>&nbsp;<span class="element-name">read</span><wbr><span class="parameters">(ca.uhn.fhir.rest.api.server.RequestDetails&nbsp;theRequestDetails,
  org.hl7.fhir.r4.model.IdType&nbsp;theId)</span></div>
 <div class="block">Simple implementation of the "read" method</div>
 </section>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.segtnan.hapi.PatientResourceProviderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.418 s - in io.segtnan.hapi.PatientResourceProviderTest

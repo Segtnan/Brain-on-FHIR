@@ -1,7 +1,9 @@
-ca/uhn/fhir/example/SegtnanQuestionnaireResponseResourceProvider.class
-ca/uhn/fhir/example/SegtnanRestfulServer.class
-ca/uhn/fhir/example/PatientResourceProvider.class
-ca/uhn/fhir/example/DbConnection.class
-ca/uhn/fhir/example/SegtnanContext.class
-ca/uhn/fhir/example/FederatedDbHandler.class
-ca/uhn/fhir/example/SegtnanQuestionnaireResponse.class
+io/segtnan/hapi/SegtnanQuestionnaireResponse.class
+io/segtnan/hapi/SegtnanQuestionnaireResponseResourceProvider.class
+io/segtnan/hapi/FederatedDbHandler$ResourceType.class
+io/segtnan/hapi/DbConnection.class
+io/segtnan/hapi/PatientWithExtension.class
+io/segtnan/hapi/SegtnanRestfulServer.class
+io/segtnan/hapi/FederatedDbHandler$1.class
+io/segtnan/hapi/FederatedDbHandler.class
+io/segtnan/hapi/PatientResourceProvider.class
